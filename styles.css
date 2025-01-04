@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+canvas {
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+.stick-man {
+    fill: #000;
+    stroke: #000;
+    stroke-width: 2;
+}
+
+.game-over {
+    font-size: 24px;
+    color: red;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
